@@ -1,6 +1,17 @@
-from ipaddress import get_mixed_type_key
-import random
-import ipaddress
+from ipaddress import IPv4Network
 
-testnumb = random.randint(1,100)
-print("Random number is:", ipaddress._IPAddressBase()    ([1, "192.168.0.1/24", "192.168.0.2/24"]))
+
+
+
+def main():
+    for addr in IPv4Network('192.168.0.0/24'):
+        print(addr)
+
+if __name__ == "__main__":
+    main()
+    print("Test: ",__name__)
+
+print("__name__ equals " + __name__)
+
+if __name__ == '__main__':
+    print("if-statement was executed")
