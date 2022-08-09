@@ -1,2 +1,1 @@
-print("helleeo")
-print("ssup2")
+print("hello world!")
