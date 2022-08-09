@@ -1,5 +1,3 @@
-count = 0
-
 def passw():
     while True:
         name = input('Gimme your name: ')
@@ -15,7 +13,6 @@ def passw():
 
 def second():
     print('__name__ :', __name__)
-
 
 if __name__ == '__main__':
     passw()
