@@ -8,5 +8,5 @@ while True:
     if password != 'meh':
         continue
     else:
-        print("Welcum.")
+        print("Welcufm.")
         break
